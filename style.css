@@ -1,0 +1,157 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-color: #121212;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #121212;
+
+}
+
+header {
+    background-color: #010101;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.num{
+    width: 300px;
+    height: 425px; ;
+    background-color: #242424;
+    border: 1px solid;
+    float: left;
+    margin-left: 120px;
+    border-radius: 3%;
+    font-family: Roboto;
+}
+
+.title{
+    text-transform: capitalize;
+}
+
+.Mini {
+    color: #cff56a ;
+    margin-left: 30px;
+}
+.Duo {
+    color: #ffc862 ;
+    margin-left: 30px;
+}.Family {
+    color: #99b7d1 ;
+    margin-left: 30px;
+}
+.elprice {
+    color: white;
+    font-size: small;
+    font-family: Roboto;
+    margin-left: 30px;
+}
+.list {
+    color: rgb(253, 253, 253);
+    font-size: 12px;
+    font-family: Roboto;
+}
+.bmini {
+background-color: #D3F765;
+border: none;
+border-radius: 25px;
+padding: 10px 20px; 
+font-size: 15px; 
+font-weight: bold; 
+color: #000000; 
+cursor: pointer; 
+text-align: center;
+display: inline-block;
+margin-left: 20%;
+transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bmini:hover {
+background-color: #bee94a; 
+transform: scale(1.2);
+}
+.bduo {
+    background-color: #ffc862;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    color: #000000; 
+    cursor: pointer; 
+    text-align: center;
+    display: inline-block;
+    margin-left: 20%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .bduo:hover {
+    background-color: #fcba3f; 
+    transform: scale(1.2);
+    }
+    
+    .bfamily {
+        background-color: #a5bbd1;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px; 
+        font-size: 15px; 
+        font-weight: bold; 
+        color: #000000; 
+        cursor: pointer; 
+        text-align: center;
+        display: inline-block;
+        margin-left: 20%;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        
+        .bfamily:hover {
+        background-color: #87aed6; 
+        transform: scale(1.2);
+        }
+        
+
+.sora {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+hr {
+    width: 70%;
+}
+.footer {
+    font-size: 10px;
+    color: #888;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+.footer a {
+    color: #888;
+    text-decoration: underline;
+}
+.el5t {
+    width: 40%;
+}
